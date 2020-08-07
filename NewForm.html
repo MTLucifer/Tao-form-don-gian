@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo form đơn giản</title>
+</head>
+<body>
+<h1>Phần 1</h1>
+<form>
+    <style>
+        fieldset {
+            border-style: solid;
+            border-width: thick;
+            border-color: aqua;
+        }
+        div {
+            background-color: orangered;
+            color:white;
+            padding-left: 225px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    </style>
+     <fieldset>
+        <div><strong> SỞ THÍCH CỦA BẠN </strong></div>
+         <table>
+             <style>
+                 table {
+                     text-align: left;
+                 }
+             </style>
+       <tr>
+           <th>Họ và tên:</th>
+           <th><input type="text" name="name" value=""></th>
+
+       </tr>
+         <tr>
+             <th>Email:</th>
+             <th><input type="email" name="email" value=""><br></th>
+         </tr>
+        <tr>
+            <th style="vertical-align: top">Sở thích:</th>
+            <br>
+        <th><form action="/action_page.php">
+            <label><input name="hobby" value="travel" type="checkbox"/> Du lịch</label>
+            <label><input name="hobby" value="sport" type="checkbox"/> Thể thao</label> <br/>
+            <label><input name="hobby" value="music" type="checkbox"/> Âm nhạc</label>
+            <label><input name="hobby" value="read" type="checkbox"/> Đọc sách</label> <br/>
+            <label><input name="hobby" value="surfweb" type="checkbox"/> Lướt web</label>
+            <label><input name="hobby" value="game" type="checkbox"/> Chơi game</label> <br/>
+            <label><input name="hobby" value="movie" type="checkbox"/> Điện ảnh</label>
+        </form>
+            <br>
+            <input type="submit" value="Gửi"></th>
+        </tr>
+         </table>
+     </fieldset>
+</form>
+<h1>Phần 2</h1>
+
+</body>
+</html>
