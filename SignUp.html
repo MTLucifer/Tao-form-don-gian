@@ -18,7 +18,7 @@
             padding: 5px;
         }
         fieldset {
-            background-color: bisque;
+            background-color: khaki;
             margin-inside: 0%;
             text-align: left;
         }
@@ -28,28 +28,28 @@
     </div>
     <table>
         <tr>
-            <th>Họ và tên</th>
+            <td>Họ và tên</td>
             <td><input type="text" name="name" value=""></td>
         </tr>
         <tr>
-            <th>Ngày sinh</th>
+            <td>Ngày sinh</td>
             <td><input type="date" name="birth" value=""></td>
         </tr>
         <tr>
-            <th>Giới tính</th>
+            <td>Giới tính</td>
             <td>
-                <label><input name="gender" value="male" type="radio" checked/> Nam</label>
+                <label><input name="gender" value="male" type="radio" /> Nam</label>
                 <label><input name="gender" value="female" type="radio" /> Nữ</label>
             </td>
         </tr>
         <tr>
-            <th style="vertical-align: top">Địa chỉ</th>
+            <td style="vertical-align: top">Địa chỉ</td>
             <td>
                 <textarea></textarea>
             </td>
         <tr>
-        <th>Chọn lớp</th>
-        <td><select name="class" >
+        <td>Chọn lớp</td>
+        <td><select name="class">
             <option value="A">Lớp A</option>
             <option value="B">Lớp B</option>
             <option value="C">Lớp C</option>
@@ -58,7 +58,19 @@
         </select>
         </td>
     </tr>
-
+        <tr>
+            <td>Email</td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>Điện thoại</td>
+            <td><input type="number"></td>
+        </tr>
+<tr>
+    <td></td>
+    <td><input type="submit" value="Đăng ký">
+        <input type="reset" value="Nhập lại"></td>
+</tr>
     </table>
 </form>
 </fieldset>
